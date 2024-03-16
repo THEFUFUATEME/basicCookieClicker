@@ -5,7 +5,7 @@ let grandmaCount = 0;
 let farmCount = 0;
 let reasearchFacility = 0;
 let milkCount = 0;
-let temufactoryCount = 0;
+let temuFactoryCount = 0;
 let godCount = 0;
 let achievements = {
   'First Click': false,
