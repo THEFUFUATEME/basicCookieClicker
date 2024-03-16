@@ -13,6 +13,7 @@ let achievements = {
   'Farm Owner': false,
   'Researcher': false,
   'Milk Enthusiast': false,
+  'Temu Factory Time': false,
   'Reached GOD': false
 };
 
@@ -97,11 +98,23 @@ function buyMilk() {
   }
 }
 
+function buyTemuFactory() {
+    if (cookies >= 100000000000) {
+      cookies -= 100000000000;
+      godCount++;
+      setInterval(autoClickTemuFactory, 5000);
+      updateCookieCount();
+      checkAchievements();
+    } else {
+      alert("Not enough cookies!");
+    }
+  }
+
 function buyGOD() {
     if (cookies >= 100000000000000000000) {
       cookies -= 10000000000000000000;
       godCount++;
-      setInterval(autoClickFarm, 42069);
+      setInterval(autoClickGOD, 42069);
       updateCookieCount();
       checkAchievements();
     } else {
@@ -125,9 +138,14 @@ function autoClickFarm() {
 }
 
 function autoClickReasearchFacility() {
-    cookies += reasearchFacility * 10;
+    cookies += reasearchFacilityCount * 10;
     updateCookieCount();
   }
+
+function autoClickTemufactory() {
+  cookies += temuFactoryCount * 5000;
+  updateCookieCount;
+}
 
   function autoClickGOD() {
     cookies += godCount * 42069;
@@ -158,6 +176,10 @@ function checkAchievements() {
   if (!achievements['Milk Enthusiast'] && milkCount >= 1) {
     alert("You bought milk! Milk Enthusiast achievement unlocked!");
     achievements['Milk Enthusiast'] = true;
+  }
+  if(!achievements['Temu Factory Time'] && temuFactoryCount >= 1) {
+    alert("You are noow the Owner of a Temu Factory")
+    achievements['Temu Factory Owner'] = true;
   }
   if (!achievements['Reached GOD'] && godCount >= 1) {
     alert("You have reached GOD Level Cookie Making well done")
