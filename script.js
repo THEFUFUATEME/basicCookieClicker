@@ -77,7 +77,7 @@ function buyReasearchFacility() {
     if (cookies >= 500000) {
       cookies -= 500000;
       reasearchFacilityCount++;
-      setInterval(autoClickReasearchFacility, 10);
+      setInterval(autoClickReasearchFacility, 100);
       updateCookieCount();
       checkAchievements();
     } else {
