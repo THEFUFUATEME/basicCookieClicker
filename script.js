@@ -160,10 +160,10 @@ function autoClickTemufactory() {
 
 function insertKeyInfCookies() {
 document.addEventListener('keydown', function(event) {
-      if (event.code === 'Insert') {
-        giveInfiniteCookies();
-      }
-    });
+    if (event.code === 'Insert') {
+       giveInfiniteCookies();
+    }
+  }
 
 function checkAchievements() {
   if (!achievements['First Click'] && cookies >= 1) {
