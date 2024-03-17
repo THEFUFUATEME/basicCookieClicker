@@ -153,18 +153,6 @@ function autoClickTemufactory() {
     updateCookieCount();
   }
 
- function giveInfiniteCookies() {
-      cookies = Infinity;
-      updateCookieCount();
-    }
-
-function insertKeyInfCookies() {
-document.addEventListener('keydown', function(event) {
-    if (event.code === 'Insert') {
-       giveInfiniteCookies();
-    }
-  }
-
 function checkAchievements() {
   if (!achievements['First Click'] && cookies >= 1) {
     alert("Congratulations! You clicked your first cookie!");
