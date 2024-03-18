@@ -7,7 +7,6 @@ let reasearchFacilityCount = 0;
 let milkCount = 0;
 let temuFactoryCount = 0;
 let godCount = 0;
-let ultimateKarsCount = 0;
 let achievements = {
   'First Click': false,
   'Click Master': false,
