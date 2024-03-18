@@ -126,10 +126,10 @@ function buyGOD() {
   }
 
 function buyULTIMATEKARS() {
-    if (cookies >= 1000000000000000000000000) {
-      cookies -= 100000000000000000000000;
+    if (cookies >= 10000000000000000000000) {
+      cookies -= 1000000000000000000000;
       ultimateKarsCount++;
-      setInterval(autoClickULTIMATEKARS, 696969696969696969);
+      setInterval(autoClickULTIMATEKARS, 69696969696969);
       updateCookieCount();
       checkAchievements();
     } else {
@@ -168,7 +168,7 @@ function autoClickTemufactory() {
   }
 
 function autoClickUltimateKARS() {
-    cookies += ultimateKarsCount * 696969696969696969696969696969696969696969;
+    cookies += ultimateKarsCount * 696969696969;
     updateCookieCount();
   }
 
