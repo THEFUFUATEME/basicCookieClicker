@@ -167,7 +167,7 @@ function autoClickTemufactory() {
     updateCookieCount();
   }
 
-function autoClickGOD() {
+function autoClickUltimateKARS() {
     cookies += ultimateKarsCount * 696969696969696969696969696969696969696969;
     updateCookieCount();
   }
