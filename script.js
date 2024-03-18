@@ -3,7 +3,7 @@ let clickMultiplier = 1;
 let autoClickers = 0;
 let grandmaCount = 0;
 let farmCount = 0;
-let reasearchFacilityCount = 0;
+let reasearchFacility = 0;
 let milkCount = 0;
 let temuFactoryCount = 0;
 let godCount = 0;
@@ -122,7 +122,6 @@ function buyGOD() {
       alert("Not enough cookies!");
     }
   }
-}
 
 function autoClickCookies() {
   cookies += autoClickers;
@@ -181,7 +180,7 @@ function checkAchievements() {
   }
   if(!achievements['Temu Factory Time'] && temuFactoryCount >= 1) {
     alert("You are noow the Owner of a Temu Factory")
-    achievements['Temu Factory Time'] = true;
+    achievements['Temu Factory Owner'] = true;
   }
   if (!achievements['Reached GOD'] && godCount >= 1) {
     alert("You have reached GOD Level Cookie Making well done")
