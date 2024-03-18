@@ -17,7 +17,6 @@ let achievements = {
   'Milk Enthusiast': false,
   'Temu Factory Time': false,
   'Reached GOD': false
-  'Transcended GOD': false
 };
 
 function clickCookie() {
@@ -124,18 +123,7 @@ function buyGOD() {
       alert("Not enough cookies!");
     }
   }
-
-function buyULTIMATEKARS() {
-    if (cookies >= 1000000000000000000000) {
-      cookies -= 1000000000000000000000;
-      ultimateKarsCount++;
-      setInterval(autoClickULTIMATEKARS, 69696969696969);
-      updateCookieCount();
-      checkAchievements();
-    } else {
-      alert("Not enough cookies!");
-    }
-  }
+}
 
 function autoClickCookies() {
   cookies += autoClickers;
@@ -164,11 +152,6 @@ function autoClickTemufactory() {
 
   function autoClickGOD() {
     cookies += godCount * 42069;
-    updateCookieCount();
-  }
-
-function autoClickUltimateKARS() {
-    cookies += ultimateKarsCount * 696969;
     updateCookieCount();
   }
 
@@ -204,9 +187,5 @@ function checkAchievements() {
   if (!achievements['Reached GOD'] && godCount >= 1) {
     alert("You have reached GOD Level Cookie Making well done")
     achievements['Reached GOD'] = true;
-  }
-  if(!achievements['Transcended GOD'] && ultimateKarsCount >=1) {
-    alert("You are now beyond any thing you solo fiction and produce immeasurable ammounts of cookies")
-    achievements['Transcended GOD'] = true;
   }
 }
