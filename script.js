@@ -126,7 +126,7 @@ function buyGOD() {
   }
 
 function buyULTIMATEKARS() {
-    if (cookies >= 10000000000000000000000) {
+    if (cookies >= 1000000000000000000000) {
       cookies -= 1000000000000000000000;
       ultimateKarsCount++;
       setInterval(autoClickULTIMATEKARS, 69696969696969);
