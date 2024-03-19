@@ -75,7 +75,7 @@ function buyFarm() {
   }
 }
 
-function buyTemuFactory() {
+function buyReasearchFacility() {
     if (cookies >= 500000) {
       cookies -= 500000;
       reasearchFacilityCount++;
