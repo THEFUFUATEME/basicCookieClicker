@@ -75,11 +75,11 @@ function buyFarm() {
   }
 }
 
-function buyReasearchFacility() {
+function buyTemuFactory() {
     if (cookies >= 500000) {
       cookies -= 500000;
       reasearchFacilityCount++;
-      setInterval(autoClickReasearchFacility, 100);
+      setInterval(autoClickReasearchFacility, 5000);
       updateCookieCount();
       checkAchievements();
     } else {
