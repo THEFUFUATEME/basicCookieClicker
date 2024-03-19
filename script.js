@@ -139,7 +139,7 @@ function autoClickFarm() {
 }
 
 function autoClickReasearchFacility() {
-    cookies += reasearchFacilityCount * 10;
+    cookies += reasearchFacilityCount * 100;
     updateCookieCount();
   }
 
