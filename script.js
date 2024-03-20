@@ -124,32 +124,32 @@ function buyGOD() {
   }
 
 function autoClickCookies() {
-  cookies += autoClickers;
+  cookies += autoClickers * clickMultiplier;
   updateCookieCount();
 }
 
 function autoClickGrandma() {
-  cookies += grandmaCount * 2;
+  cookies += grandmaCount * 2 * clickMultiplier;
   updateCookieCount();
 }
 
 function autoClickFarm() {
-  cookies += farmCount * 5;
+  cookies += farmCount * 5 * clickMultiplier;
   updateCookieCount();
 }
 
 function autoClickReasearchFacility() {
-    cookies += reasearchFacilityCount * 500;
+    cookies += reasearchFacilityCount * 500 * clickMultiplier;
     updateCookieCount();
   }
 
 function autoClickTemufactory() {
-  cookies += temuFactoryCount * 5000;
+  cookies += temuFactoryCount * 5000 * clickMultiplier;
   updateCookieCount;
 }
 
   function autoClickGOD() {
-    cookies += godCount * 42069;
+    cookies += godCount * 42069 * clickMultiplier;
     updateCookieCount();
   }
 
