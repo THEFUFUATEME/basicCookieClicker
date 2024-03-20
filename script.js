@@ -170,7 +170,7 @@ function checkAchievements() {
     alert("You own 3 farms! Farm Owner achievement unlocked!");
     achievements['Farm Owner'] = true;
   }
-  if (!achievements['Reasearcher'] && reasearchFacilityCount >= 1) {
+  if (!achievements['Researcher'] && reasearchFacilityCount >= 1) {
     alert("You are now a proud Researcher!");
     achievements['Researcher'] = true;
   }
