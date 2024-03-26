@@ -149,7 +149,7 @@ function autoClickTemufactory() {
 }
 
   function autoClickGOD() {
-    cookies += godCount * 42069 * clickMultiplier;
+    cookies += godCount * 42069 * clickMultiplier * temuFactoryCount * autoClickReasearchFacility * autoClickFarm * autoClickGrandma * autoClickCookies;
     updateCookieCount();
   }
 
