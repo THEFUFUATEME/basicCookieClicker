@@ -102,7 +102,7 @@ function buyMilk() {
 function buyTemuFactory() {
     if (cookies >= 100000000000) {
       cookies -= 100000000000;
-      temufactoryCount++;
+      temuFactoryCount++;
       setInterval(autoClickTemuFactory, 5000);
       updateCookieCount();
       checkAchievements();
