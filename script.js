@@ -143,7 +143,7 @@ function buyGOD() {
     if (cookies >= 1000000000000000000) {
       cookies -= 100000000000000000;
       godCount++;
-      setInterval(autoClickGOD, 42069);
+      setInterval(autoClickGOD, 1000000000);
       updateCookieCount();
       checkAchievements();
     } else {
@@ -177,7 +177,7 @@ function autoClickTemuFactory() {
 }
 
   function autoClickGOD() {
-    cookies += godCount * 42069 * clickMultiplier * temuFactoryCount * autoClickReasearchFacility * autoClickFarm * autoClickGrandma * autoClickCookies;
+    cookies += godCount * 1 * clickMultiplier * temuFactoryCount * autoClickReasearchFacility * autoClickFarm * autoClickGrandma * autoClickCookies * 0.01;
     updateCookieCount();
   }
 
