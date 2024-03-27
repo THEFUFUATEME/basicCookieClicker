@@ -141,7 +141,7 @@ function buyTemuFactory() {
 
 function buyGOD() {
     if (cookies >= 1000000000000000000) {
-      cookies -= 100000000000000000;
+      cookies -= 1000000000000000000;
       godCount++;
       setInterval(autoClickGOD, 1000000000);
       updateCookieCount();
