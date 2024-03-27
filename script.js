@@ -28,10 +28,6 @@ function updateCookieCount() {
   document.getElementById("cookie-count").textContent = cookies;
 }
 
-function seeHowMany() {
-  alert(autoClickers, clickMultiplier, grandmaCount, farmCount, reasearchFacilityCount, temuFactoryCount, godCount);
-}
-
 function buyMultiplier() {
   if (cookies >= 10) {
     cookies -= 10;
