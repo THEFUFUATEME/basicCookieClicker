@@ -171,7 +171,7 @@ function autoClickReasearchFacility() {
     updateCookieCount();
   }
 
-function autoClickTemufactory() {
+function autoClickTemuFactory() {
   cookies += temuFactoryCount * 5000 * clickMultiplier;
   updateCookieCount();
 }
