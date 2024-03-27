@@ -162,7 +162,7 @@ function ascend() {
         milkCount = 0;
         temuFactoryCount = 0;
         godCount = 0;
-        document.getElementById('count').innerText = cookies;
+        document.getElementById('count') = cookies;
         alert("You ascended! Your entire progress have been reset.");
       } else {
         alert("You need at least 10 GODS to ascend.");
