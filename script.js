@@ -28,6 +28,10 @@ function updateCookieCount() {
   document.getElementById("cookie-count").textContent = cookies;
 }
 
+function seeHowMany() {
+  alert("You have, " autoClickers "/n" grandmaCount "/n" farmCount "/n" reasearchFacilityCount "/n" clickMultiplier "/n" temuFactoryCount "/n" godCount
+}
+
 function buyMultiplier() {
   if (cookies >= 10) {
     cookies -= 10;
