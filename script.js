@@ -29,7 +29,7 @@ function updateCookieCount() {
 }
 
 function seeMultiplier() { 
-  alert("You have " + clickMultiplier + " times multiplier");
+  alert("You have a times " + clickMultiplier + " multiplier");
 }
 
 function seeAutoClickers() { 
@@ -45,7 +45,7 @@ function seeFarms() {
 }
 
 function seeReasearchFactory() { 
-  alert("You have " + reasearchFactoryCount + " reasearch factories");
+  alert("You have " + reasearchFacilityCount + " reasearch facilities");
 }
 
 function seeTemuFactory() { 
