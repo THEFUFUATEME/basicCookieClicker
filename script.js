@@ -29,7 +29,7 @@ function updateCookieCount() {
 }
 
 function seeHowMany() {
-  alert("You have, " autoClickers "/n" grandmaCount "/n" farmCount "/n" reasearchFacilityCount "/n" clickMultiplier "/n" temuFactoryCount "/n" godCount
+  alert(autoClickers, clickMultiplier, grandmaCount, farmCount, reasearchFacilityCount, temuFactoryCount, godCount);
 }
 
 function buyMultiplier() {
