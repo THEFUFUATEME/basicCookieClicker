@@ -180,7 +180,7 @@ function checkAchievements() {
   }
   if(!achievements['Temu Factory Time'] && temuFactoryCount >= 1) {
     alert("You are noow the Owner of a Temu Factory")
-    achievements['Temu Factory Owner'] = true;
+    achievements['Temu Factory Time'] = true;
   }
   if (!achievements['Reached GOD'] && godCount >= 1) {
     alert("You have reached GOD Level Cookie Making well done")
