@@ -173,7 +173,7 @@ function autoClickReasearchFacility() {
 
 function autoClickTemufactory() {
   cookies += temuFactoryCount * 5000 * clickMultiplier;
-  updateCookieCount;
+  updateCookieCount();
 }
 
   function autoClickGOD() {
