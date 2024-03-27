@@ -151,24 +151,6 @@ function buyGOD() {
     }
   }
 
-function ascend() {
-      if (godCount >= 10) {
-        cookies = 0;
-        clickMultiplier = 1;
-        autoClickers = 0;
-        grandmaCount = 0;
-        farmCount = 0;
-        reasearchFacilityCount = 0;
-        milkCount = 0;
-        temuFactoryCount = 0;
-        godCount = 0;
-        document.getElementById('count') = cookies;
-        alert("You ascended! Your entire progress have been reset.");
-      } else {
-        alert("You need at least 10 GODS to ascend.");
-      }
-    }
-
 function autoClickCookies() {
   cookies += autoClickers * clickMultiplier;
   updateCookieCount();
