@@ -28,8 +28,33 @@ function updateCookieCount() {
   document.getElementById("cookie-count").textContent = cookies;
 }
 
-function seeHowMany() { 
-  alert("You have, " + clickMultiplier + "times multiplier" + autoClickers + "auto clickers" + grandmaCount + "times multiplier"
+function seeMultiplier() { 
+  alert("You have, " + clickMultiplier + "times multiplier");
+}
+
+function seeAutoClickers() { 
+  alert("You have, " + autoClickers + "auto clickers");
+}
+
+function seeGrandmas() { 
+  alert("You have, " + grandmaCount + "grandmas");
+}
+
+function seeFarms() { 
+  alert("You have, " + farmCount + "farms");
+}
+
+function seeReasearchFactory() { 
+  alert("You have, " + reasearchFactoryCount + "reasearch factories");
+}
+
+function seeTemuFactory() { 
+  alert("You have, " + temuFactoryCount + "temu factories");
+}
+
+function seeGOD() { 
+  alert("You have, " + godCount + "GODS");
+}
 
 function buyMultiplier() {
   if (cookies >= 10) {
