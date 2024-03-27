@@ -28,6 +28,9 @@ function updateCookieCount() {
   document.getElementById("cookie-count").textContent = cookies;
 }
 
+function seeHowMany() { 
+  alert("You have, " + clickMultiplier + "times multiplier" + autoClickers + "auto clickers" + grandmaCount + "times multiplier"
+
 function buyMultiplier() {
   if (cookies >= 10) {
     cookies -= 10;
