@@ -25,7 +25,7 @@ function clickCookie() {
 }
 
 function updateCookieCount() {
-  document.getElementById("cookie-count").textContent = cookies;
+  document.getElementById("cookie-count").textContent = cookies.toLocaleString();
 }
 
 function seeMultiplier() { 
