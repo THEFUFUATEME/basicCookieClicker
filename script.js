@@ -119,7 +119,7 @@ function buyMilk() {
   if (cookies >= 10000000) {
     cookies -= 10000000;
     milkCount++;
-    clickMultiplier += 5;
+    clickMultiplier += 10;
     updateCookieCount();
     checkAchievements();
   } else {
