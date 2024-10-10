@@ -151,6 +151,18 @@ function buyGOD() {
     }
   }
 
+function buy1MillionClickMultiplier() {
+  if (cookies >= if (cookies >= 1000000000000) {
+    cookies -= 1000000000000;
+    milkCount++;
+    clickMultiplier += 1000000;
+    updateCookieCount();
+    checkAchievements();
+  } else {
+    alert("Not enough cookies!");
+  }
+}
+
 function autoClickCookies() {
   cookies += autoClickers * clickMultiplier;
   updateCookieCount();
