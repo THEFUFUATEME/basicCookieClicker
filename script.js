@@ -153,7 +153,7 @@ function buyGOD() {
   }
 
 function buy1MillionClickMultiplier() {
-  if (cookies >= if (cookies >= 1000000000000) {
+    if (cookies >= 1000000000000) {
     cookies -= 1000000000000;
     BIGmilkCount++;
     clickMultiplier += 1000000;
