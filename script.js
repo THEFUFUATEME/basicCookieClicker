@@ -5,6 +5,7 @@ let grandmaCount = 0;
 let farmCount = 0;
 let reasearchFacilityCount = 0;
 let milkCount = 0;
+let BIGmilkCount = 0;
 let temuFactoryCount = 0;
 let godCount = 0;
 let achievements = {
@@ -154,7 +155,7 @@ function buyGOD() {
 function buy1MillionClickMultiplier() {
   if (cookies >= if (cookies >= 1000000000000) {
     cookies -= 1000000000000;
-    milkCount++;
+    BIGmilkCount++;
     clickMultiplier += 1000000;
     updateCookieCount();
     checkAchievements();
